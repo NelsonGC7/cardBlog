@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "![Design preview for the Blog preview card coding challenge](./preview.jpg)",
   "main": "index.js",
-  "type": "module",
   "scripts": {
    "build" :"npx tailwindcss -i ./styles/styles.css -o ./styles/output/output.css --minify"
   },
