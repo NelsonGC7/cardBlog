@@ -10,7 +10,7 @@
 }
 .custom-img{
     @apply rounded-lg;
-    background: url(/public/images/illustration-article.svg) center no-repeat;
+    background: url(../images/illustration-article.svg) center no-repeat;
     background-position: center;
     background-size: cover;
 }
