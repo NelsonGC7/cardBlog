@@ -3,7 +3,8 @@ module.exports = {
   
   content:[
     './public/**/*.html',
-    './public/styles/**/*.css'
+    './public/styles/**/*.css',
+    './public/styles/output/**/*.css'
   ],
   theme: {
     extend: {
@@ -11,7 +12,7 @@ module.exports = {
         'custom-sombra':'10px 10px 0 black'
       },
       backgroundImage:{
-        'custom-img': 'url(/assets/images/illustration-article.svg)'
+        'custom-img': ' url(../images/illustration-article.svg)'
       },
       fontFamily:{
         "custom-family": '[Figtree, system-ui]'
