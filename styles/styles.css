@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-sombra{
+    @apply shadow-none;
+    box-shadow:  10px 10px 0 black;
+    border: solid .1rem black
+}
+.custom-img{
+    @apply rounded-lg;
+    background: url(/assets/images/illustration-article.svg) center no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.custom-family{
+    font-family: 'Figtree', system-ui;
+}
